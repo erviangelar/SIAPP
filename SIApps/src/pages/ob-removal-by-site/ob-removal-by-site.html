@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>OBR By Site</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="logOut()">
+        <ion-icon name="log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <button ion-button icon-right color="light" full (click)="openSOFA()">
+      Summary Of Fleet Achievement 
+      <ion-icon name="arrow-forward" class="icons"></ion-icon>
+    </button>
+    <button ion-button icon-right color="light" full (click)="openNOFE()">
+      Number Of Fleet Evaluation 
+      <ion-icon name="arrow-forward" class="icons"></ion-icon>
+    </button>
+    <button ion-button icon-right color="light" full (click)="openELE()">
+      EWH Loader Evaluation 
+      <ion-icon name="arrow-forward" class="icons"></ion-icon>
+    </button>
+    <button ion-button icon-right color="light" full (click)="openFPA()">
+      Fleet Production Achievement 
+      <ion-icon name="arrow-forward" class="icons"></ion-icon>
+    </button>
+    <button ion-button icon-right color="light" full (click)="openPE()">
+      Productivity Evaluation 
+      <ion-icon name="arrow-forward" class="icons"></ion-icon>
+    </button>
+  </ion-list>
+</ion-content>

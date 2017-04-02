@@ -1,0 +1,20 @@
+page-pro-achieve-by-process {
+	.square {
+		width: 100% !important;
+		height:0 !important;
+		padding: 0 0 100% 0 !important;
+		text-align: center;
+	}
+
+	.button-inner {
+		position: absolute;
+	    top: 50%;
+	    left: 40%;
+	    height: 50%;
+	    transform: translate(-50%, -50%);
+	    width: 10px;
+	    height: 10px;
+	    display: block;
+	    
+	}
+}
